@@ -1,0 +1,49 @@
+header{
+    background-color: rgb(165, 175, 99);
+}
+
+main{
+    background-color: rgb(235, 123, 123);
+}
+
+/* NAV */
+.bannerFoto{
+    width: 100vw;
+}
+nav{
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.navegadorPrincipal{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+
+/* MAIN */
+main{
+    height: 500px;
+    text-align: center;
+}
+
+/* FOOTER */
+/* Section de fotos */
+.fotos{
+    display: flex;
+    
+}
+.fotoizq, .fotoderecha{
+    width: 50%;
+}
+.fotoderecha{
+    background-image: url(/img/desktop/img-2.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
